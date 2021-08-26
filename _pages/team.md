@@ -8,7 +8,7 @@ permalink: /team/
 
 # Group Members
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team**
+ **We are open to applications from interested PhD students, Postdocs, and Master students. Send an introductory email and your CV a casey dot paquola at gmail dot com**
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
