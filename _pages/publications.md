@@ -1,9 +1,9 @@
 ---
-title: "Research"
+title: "Publications"
 layout: gridlay
-excerpt: "Research"
+excerpt: "Publications"
 sitemap: false
-permalink: /research/
+permalink: /publications/
 ---
 
 
