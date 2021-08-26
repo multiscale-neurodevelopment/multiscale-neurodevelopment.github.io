@@ -1,17 +1,21 @@
-  
-<div id="footer" class="panel">
-	<div class="panel-footer">
-	  <div class="container-fluid">
-		<div class="row">
-					  
-			<p>&copy 2021 Casey Paquola. Site made with <a href="https://jekyllrb.com">Jekyll</a>.</p>
-				<p>We are part of the <a href="https://www.fz-juelich.de/inm/inm-1/DE/Home/home_node.html/">INM-1</a> at <a href="https://www.fz-juelich.de/inm/inm-1/EN/Home/home_node.html">Forschungszentrum Juelich</a>.</p>
-			<p>  </p><p>
-							
-		</div>
-	  </div>
-	</div>
-  </div>
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% unless site.atom_feed.hide %}
+      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% endunless %}
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
