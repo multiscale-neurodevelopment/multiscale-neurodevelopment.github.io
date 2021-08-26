@@ -1,17 +1,17 @@
 ---
 title: "Publications"
 layout: gridlay
-excerpt: "Publications"
+excerpt: "Publications."
 sitemap: false
 permalink: /publications/
 ---
 
 
-# Research
+# Publications
 
-## Highlights
+## Group highlights
 
-For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.ca/citations?user=mKnsJ9AAAAAJ&hl=en).
+(For a full list of publications see [below](#full-list) or go to [Google Scholar](https://scholar.google.ch/citations?user=mKnsJ9AAAAAJ&hl=en))
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
@@ -50,7 +50,6 @@ For a full list see [below](#full-list) or go to [Google Scholar](https://schola
 {% endif %}
 
 <p> &nbsp; </p>
-
 
 ## Full List
 
