@@ -8,6 +8,22 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Header
+---
+title: "Layout: Header Image (Horizontal)"
+header:
+  image: /assets/images/unsplash-image-1.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Layout
+  - Uncategorized
+tags:
+  - edge case
+  - featured image
+  - image
+  - layout
+---
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
