@@ -8,7 +8,7 @@ permalink: /team/
 
 # Group Members
 
- **We are open to applications from interested PhD students, Postdocs, and Master students. Send an introductory email and your CV a casey dot paquola at gmail dot com**
+ **We are open to applications from interested PhD students, Postdocs, and Master students. Send an introductory email and your CV to casey.paquola@gmail.com**
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
