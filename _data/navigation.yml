@@ -7,3 +7,5 @@ main:
     url: /tools/
   - title: "Team"
     url: /team/
+    - title: "About"
+    url: /about/
