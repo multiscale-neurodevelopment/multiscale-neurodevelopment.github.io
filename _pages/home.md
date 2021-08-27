@@ -15,7 +15,6 @@ We are a new research group in [INM-1 at Forschungzentrum Juelich](https://www.f
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
         <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
     </ol>
 
     <!-- Items -->
@@ -46,7 +45,7 @@ We are a new research group in [INM-1 at Forschungzentrum Juelich](https://www.f
 
 Our research program is inspired by working at the interface of neuroimaging and microscopy. We aim to develop theories on the relation between cytoarchitecture and brain function, which will have broad implications for understanding multi-scale network organisation and for brain simulations. The group will study neurodevelopment as both a natural experiment on the inter-relation between changing cytoarchitecture and function, and as an important use case of how knowledge of multi-scale brain networks can benefit understanding of disorders. Additionally, the lab develops tools to support integration of histology with neuroimaging. 
 
-We are located at the Forschungzentrum Juelich, Germany. We work closely with the MICA lab at the Montreal Neurological Institute (MNI), McGill University, Canada. 
+We are located at the Forschungzentrum Juelich, Germany. We also work closely with the MICA lab at the Montreal Neurological Institute (MNI), McGill University, Canada. 
 
 **We are looking for new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/about) **!**
 
