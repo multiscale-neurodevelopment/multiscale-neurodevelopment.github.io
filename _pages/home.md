@@ -16,8 +16,6 @@ We are a new research group in [INM-1 at Forschungzentrum Juelich](https://www.f
         <li data-target="#carousel" data-slide-to="2"></li>
         <li data-target="#carousel" data-slide-to="3"></li>
         <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
     </ol>
 
     <!-- Items -->
@@ -32,7 +30,7 @@ We are a new research group in [INM-1 at Forschungzentrum Juelich](https://www.f
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/deepembedding.png" alt="Slide 3" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/fz_juelich.jpg" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/fz_juelich.jfif" alt="Slide 4" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -44,6 +42,7 @@ We are a new research group in [INM-1 at Forschungzentrum Juelich](https://www.f
     <span class="sr-only">Next</span>
   </a>
 </div>
+
 
 Our research program is inspired by working at the interface of neuroimaging and microscopy. We aim to develop theories on the relation between cytoarchitecture and brain function, which will have broad implications for understanding multi-scale network organisation and for brain simulations. The group will study neurodevelopment as both a natural experiment on the inter-relation between changing cytoarchitecture and function, and as an important use case of how knowledge of multi-scale brain networks can benefit understanding of disorders. Additionally, the lab develops tools to support integration of histology with neuroimaging. 
 
