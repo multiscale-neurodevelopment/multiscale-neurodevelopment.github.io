@@ -45,3 +45,8 @@ permalink: /team/
 </div>
 {% endif %}
 
+
+# Collaborators
+
+We work closely with the MICA lab at the Montreal Neurological Institute (MNI), McGill University, Canada. 
+
