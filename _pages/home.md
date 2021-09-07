@@ -35,10 +35,10 @@ We are a new research group in [INM-1 at Forschungzentrum Juelich](https://www.f
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/fz_juelich.jfif" alt="Slide 4" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/deepembedding.png" alt="Slide 5" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/gradients.png" alt="Slide 5" />
         </div>       
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/gen_model.png" alt="Slide 6" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/confluence.png" alt="Slide 6" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
