@@ -6,7 +6,7 @@ title: "About"
 **We are looking for new PhD students, Postdocs, and Master students to join the team** 
 
 # Contact information
-Dr Casey Paquola - casey.paquola@gmail.com
+Dr Casey Paquola - casey dot paquola at gmail dot com
 
 
 # Insitute of Neuroscience and Medicine (INM-1)
@@ -15,6 +15,8 @@ Research at INM-1 centres on the structural and functional organisation of the b
 
 # Forschungzentrum Juelich
 The Forschungzentrum (Research Centre) is an interdiscplinary campus. Juelich is located between the beautiful cities of Cologne, Düsseldorf and Aachen and is a short train journey from each. 
+
+![]({{ site.url }}{{ site.baseurl }}/images/slider/fz_juelich.jfif){: style="width: 500px; float: center; margin: 0px  10px"}
 
 
 
