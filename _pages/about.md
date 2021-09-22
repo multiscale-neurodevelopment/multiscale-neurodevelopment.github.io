@@ -10,7 +10,7 @@ Dr Casey Paquola - casey dot paquola at gmail dot com
 
 
 # Insitute of Neuroscience and Medicine (INM-1)
-Research at INM-1 centres on the structural and functional organisation of the brain. Groups at the institute are working together to develop a 3D model of the human brain, taking into account cytoarchitectonics, connectivity, molecular structure, genetics and brain function. The institue brings together a long legacy of histological brain mapping with state-of-the-art microscropy techniques and advanced big data analytics.
+Research at [INM-1](https://www.fz-juelich.de/inm/inm-1/EN/Home/home_node.html) centres on the structural and functional organisation of the brain. Groups at the institute are working together to develop a 3D model of the human brain, taking into account cytoarchitectonics, connectivity, molecular structure, genetics and brain function. The institue brings together a long legacy of histological brain mapping with state-of-the-art microscropy techniques and advanced big data analytics.
 
 
 # Forschungzentrum Juelich
