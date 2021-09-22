@@ -23,13 +23,13 @@ We are a new research group in [INM-1 at Forschungzentrum Juelich](https://www.f
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/confluence.png" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/deepembedding.png" alt="Slide 1" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/gen_model.png" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/deepembedding.png" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/confluence.png" alt="Slide 3" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/fz_juelich.jfif" alt="Slide 4" />
@@ -38,7 +38,7 @@ We are a new research group in [INM-1 at Forschungzentrum Juelich](https://www.f
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/gradients.png" alt="Slide 5" />
         </div>       
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/confluence.png" alt="Slide 6" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/bigbrainwarp.png" alt="Slide 6" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">

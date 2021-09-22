@@ -9,6 +9,7 @@ permalink: /team/
 # Group Members
 
  **We are open to applications from interested PhD students, Postdocs, and Master students. Send an introductory email and your CV to casey.paquola@gmail.com**
+ See the full advertisement [here](https://github.com/multiscale-neuroanatomy/multiscale-neuroanatomy.github.io/blob/master/Ausschreibung_PhD.pdf) and apply using this [form](https://www.fz-juelich.de/portal/EN/Careers/application/_node.html?cms_hre_link_id=oh1wsgAdJZQXLhy1&cms_lang=en)
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
