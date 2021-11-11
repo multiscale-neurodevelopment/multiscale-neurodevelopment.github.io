@@ -26,7 +26,7 @@ We are a new research group in [INM-1 at Forschungzentrum Juelich](https://www.f
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/deepembedding.png" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/gen_model.png" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/genmodel.png" alt="Slide 2" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/confluence.png" alt="Slide 3" />
