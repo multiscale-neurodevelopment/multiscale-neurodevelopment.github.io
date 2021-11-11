@@ -1,13 +1,12 @@
 ---
-title: "Allan Lab - Home"
+title: "Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "Home"
 sitemap: false
 permalink: /
 ---
 
-We are a dynamic research group at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl). Our aim is to explore and understand [quantum materials](http://condensedconcepts.blogspot.nl/2013/05/what-is-quantum-matter.html), including strange metals, high-temperature superconductors, and quantum critical electron matter.
-
+We are a new research group in [INM-1 at Forschungzentrum Juelich](https://www.fz-juelich.de/inm/inm-1/EN/Home/home_node.html). We study the organisation and development of the human brain. 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -24,22 +23,22 @@ We are a dynamic research group at the [Leiden Institute of Physics](http://www.
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/QPI_Rh.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/deepembedding.png" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SmartTipSide.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/gen_model.png" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SaphireSTM2.jpg" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/confluence.png" alt="Slide 3" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/lab.jpg" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/fz_juelich.jfif" alt="Slide 4" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Fig_Science_Web.jpg" alt="Slide 5" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/gradients.png" alt="Slide 5" />
         </div>       
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/cake_web.jpg" alt="Slide 6" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/bigbrainwarp.png" alt="Slide 6" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -55,18 +54,16 @@ We are a dynamic research group at the [Leiden Institute of Physics](http://www.
 
 
 
-To this end, we develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom. We want to be able to build the perfect instruments to answer the  scientific questions we deem most important (see [Research](research)).
 
-We are located at Leiden University, the birthplace of superconductivity and home to Kamerlingh Onnes, Lorentz, Huygens, Einstein, de Sitter, and others (see e.g. [the wall of signatures from Ehrenfest lecturers](https://www.lorentz.leidenuniv.nl/history/colloquium/muur_heel.html)). We exchange ideas and work with our neighbors from [Quantum Matter & Optics](http://www.physics.leidenuniv.nl/qo-home), as well as with the colleagues from our [world-class theory section](https://www.lorentz.leidenuniv.nl).
+The Multiscale Neuroanatomy Lab develops theories on how the cellular organisation of the human brain gives rise to complex functional dynamics. Our research program is inspired by working at the interface of microscopy, neuroimaging and computational modelling. We combine post mortem data (histology and transcriptomics) with in vivo imaging (structural and functional MRI, intracranial EEG) to construct multiscale models of the human brain. We hold a special focus on microstructure, as a sort of lynchpin between post mortem and in vivo datasets, and work towards identifying overarching principles of cytoarchitectural organisation, such as the existence of large-scale gradients. 
 
- **We are  looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+The lab also studies the maturation of cytoarchitecture, connectivity and functional dynamics across early life. Developmental changes are profound and multi-factorial. We leverage these changes to assess the inter-relation between biological scales, and effectively test our multi-scale models of brain organisation. In addition, we aim to use our multiscale frameworks to better understand neurodevelopmental disorders. 
 
+We believe that state-of-the-art neuroanatomy should be incorporated into workflows across neuroscience, from clinical research to building artificial intelligence. To this end, the lab develops tools that support integration of histology with neuroimaging (eg: [BigBrainWarp](https://bigbrainwarp.readthedocs.io/en/latest/)) and we generate standardised atlases of cortical organisation.
 
-We are grateful for funding from Leiden University, [NWO](www.nwo.nl) ([Vidi talent scheme](http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme) and the [Frontiers in Nanoscience program](https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront)), and from an [ERC starting grant](https://erc.europa.eu/funding/starting-grants).
+We are very grateful for funding from Helmholtz International BigBrain Analytics Labratory, [HIBALL](https://bigbrainproject.org/hiball.html).
+
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Nanofront.jpg" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NWO.jpg" style="width: 120px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 110px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_HIBALL.png" style="width: 210px">
 </figure>
