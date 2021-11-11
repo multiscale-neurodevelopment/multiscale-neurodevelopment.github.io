@@ -8,8 +8,9 @@ permalink: /
 
 We are a new research group in [INM-1 at Forschungzentrum Juelich](https://www.fz-juelich.de/inm/inm-1/EN/Home/home_node.html). We study the organisation and development of the human brain. 
 
-<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="carousel.js"></script>
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
