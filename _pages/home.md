@@ -59,9 +59,10 @@ The Multiscale Neuroanatomy Lab develops theories on how the cellular organisati
 
 The lab also studies the maturation of cytoarchitecture, connectivity and functional dynamics across early life. Developmental changes are profound and multi-factorial. We leverage these changes to assess the inter-relation between biological scales, and effectively test our multi-scale models of brain organisation. In addition, we aim to use our multiscale frameworks to better understand neurodevelopmental disorders. 
 
-We believe that state-of-the-art neuroanatomy should be incorporated into workflows across neuroscience, from clinical research to building artificial intelligence. To this end, the lab develops tools that support integration of histology with neuroimaging (eg: BigBrainWarp) and we generate standardised atlases of cortical organisation (github/multiscaleneuroanatomy).
+We believe that state-of-the-art neuroanatomy should be incorporated into workflows across neuroscience, from clinical research to building artificial intelligence. To this end, the lab develops tools that support integration of histology with neuroimaging (eg: [BigBrainWarp](https://bigbrainwarp.readthedocs.io/en/latest/)) and we generate standardised atlases of cortical organisation.
 
 We are very grateful for funding from Helmholtz International BigBrain Analytics Labratory, [HIBALL](https://bigbrainproject.org/hiball.html).
+
 
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_HIBALL.png" style="width: 210px">
