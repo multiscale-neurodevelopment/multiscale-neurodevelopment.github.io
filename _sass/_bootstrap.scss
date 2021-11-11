@@ -1,184 +1,57 @@
-// Lux 5.1.3
-// Bootswatch
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
 
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
 
-// Variables
+// Reset and dependencies
+@import "bootstrap/normalize";
+@import "bootstrap/print";
+@import "bootstrap/glyphicons";
 
-$web-font-path: "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" !default;
-@if $web-font-path {
-  @import url($web-font-path);
-}
+// Core CSS
+@import "bootstrap/scaffolding";
+@import "bootstrap/type";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
 
-// Navbar
+// Components
+@import "bootstrap/component-animations";
+@import "bootstrap/dropdowns";
+@import "bootstrap/button-groups";
+@import "bootstrap/input-groups";
+@import "bootstrap/navs";
+@import "bootstrap/navbar";
+@import "bootstrap/breadcrumbs";
+@import "bootstrap/pagination";
+@import "bootstrap/pager";
+@import "bootstrap/labels";
+@import "bootstrap/badges";
+@import "bootstrap/jumbotron";
+@import "bootstrap/thumbnails";
+@import "bootstrap/alerts";
+@import "bootstrap/progress-bars";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/panels";
+@import "bootstrap/responsive-embed";
+@import "bootstrap/wells";
+@import "bootstrap/close";
 
-.navbar {
-  font-size: $font-size-sm;
-  text-transform: uppercase;
-  font-weight: 600;
+// Components w/ JavaScript
+@import "bootstrap/modals";
+@import "bootstrap/tooltip";
+@import "bootstrap/popovers";
+@import "bootstrap/carousel";
 
-  &-nav {
-    .nav-link {
-      padding-top: .715rem;
-      padding-bottom: .715rem;
-    }
-  }
-
-  &-brand {
-    margin-right: 2rem;
-  }
-}
-
-.bg-primary {
-  background-color: theme-color("primary") !important;
-}
-
-.bg-light {
-  border: 1px solid rgba(0, 0, 0, .1);
-
-  &.navbar-fixed-top {
-    border-width: 0 0 1px;
-  }
-
-  &.navbar-bottom-top {
-    border-width: 1px 0 0;
-  }
-}
-
-.nav-item {
-  margin-right: 2rem;
-}
-
-// Buttons
-
-.btn {
-  font-size: $font-size-sm;
-  text-transform: uppercase;
-
-  &-sm {
-    font-size: 10px;
-  }
-
-  &-warning {
-    &,
-    &:hover,
-    &:not([disabled]):not(.disabled):active,
-    &:focus {
-      color: $white;
-    }
-  }
-}
-
-.btn-outline-secondary {
-  border-color: $gray-600;
-  color: $gray-600;
-
-  &:not([disabled]):not(.disabled):hover,
-  &:not([disabled]):not(.disabled):focus,
-  &:not([disabled]):not(.disabled):active {
-    background-color: $gray-400;
-    border-color: $gray-400;
-    color: $white;
-  }
-
-  &:not([disabled]):not(.disabled):focus {
-    box-shadow: 0 0 0 .2rem rgba($gray-400, .5);
-  }
-}
-
-[class*="btn-outline-"] {
-  border-width: 2px;
-}
-
-.border-secondary {
-  border: 1px solid $gray-400 !important;
-}
-
-// Typography
-
-body {
-  font-weight: 200;
-  letter-spacing: 1px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-.text-secondary {
-  color: $body-color !important;
-}
-
-// Tables
-
-th {
-  font-size: $font-size-sm;
-  text-transform: uppercase;
-}
-
-.table {
-  th,
-  td {
-    padding: 1.5rem;
-  }
-
-  &-sm {
-    th,
-    td {
-      padding: .75rem;
-    }
-  }
-}
-
-// Navs
-
-.dropdown-menu {
-  font-size: $font-size-sm;
-  text-transform: none;
-}
-
-// Indicators
-
-.badge {
-  padding-top: .28rem;
-
-  &-pill {
-    border-radius: 10rem;
-  }
-
-  &.bg-secondary,
-  &.bg-light {
-    color: $dark;
-  }
-}
-
-// Containers
-
-.list-group-item {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  .h1,
-  .h2,
-  .h3,
-  .h4,
-  .h5,
-  .h6 {
-    color: inherit;
-  }
-}
-
-.card {
-  &-title,
-  &-header {
-    color: inherit;
-  }
-}
+// Utility classes
+@import "bootstrap/utilities";
+@import "bootstrap/responsive-utilities";
+@import "bootstrap/bootswatch";
