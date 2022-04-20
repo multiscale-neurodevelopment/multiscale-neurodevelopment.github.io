@@ -6,7 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-We are a new research group in [INM-1 at Forschungzentrum Juelich](https://www.fz-juelich.de/inm/inm-1/EN/Home/home_node.html). We study the organisation and development of the human brain. 
+We are a new research group in [INM-1 at Forschungzentrum Juelich](https://www.fz-juelich.de/inm/inm-1/EN/Home/home_node.html) studying the organisation and development of the human brain.
+
+PhD position (3 year scholarship) now open for applications, see the call [here](https://github.com/multiscale-neuroanatomy/multiscale-neuroanatomy.github.io/Ausschreibung_PhD_neurodevelopment.pdf) 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
