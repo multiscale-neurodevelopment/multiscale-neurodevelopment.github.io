@@ -1,3 +1,12 @@
+- title: "Closing the mechanistic gap: the value of microarchitecture in understanding cognitive networks"
+  image: TICS.png
+  description: Contemporary research linking spatial patterns of neural activity to psychological constructs describes 'where' hypothesised functions occur, but not 'how' these regions contribute to cognition. This perspective highlights emerging insights into how microarchitecture can constrain network accounts of human cognition.
+  authors: Paquola C, Amunts K, Evans AC, Smallwood J, Bernhardt BC.
+  link:
+    url: https://doi.org/10.1016/j.tics.2022.07.001
+    display: TICS 2022;07:001
+  highlight: 1
+
 - title: "The BigBrainWarp toolbox for integration of BigBrain 3D histology with multimodal neuroimaging"
   image: BBW.png
   description: Neuroimaging stands to benefit from emerging ultrahigh-resolution 3D histological atlases of the human brain; the first of which is 'BigBrain'. Here, we review recent methodological advances for the integration of BigBrain with multi-modal neuroimaging and introduce a toolbox, 'BigBrainWarp', that combines these developments. See more on the Tools page.
