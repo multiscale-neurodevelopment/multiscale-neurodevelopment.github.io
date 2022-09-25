@@ -1,3 +1,13 @@
+- title: "The potential of myelin-sensitive imaging: Redefining spatiotemporal patterns of myeloarchitecture"
+  image: Myelin.png
+  description: Recent advances in magnetic resonance imaging (MRI) pave the way for approximation of myelin content in-vivo. In this review, our main goal was to determine how to best capitalise on myelin-sensitive imaging.
+  authors: Paquola C & Hong, SJ
+  link:
+    url: https://doi.org/10.1016/j.biopsych.2022.08.031
+    display: BiolPsych 2022
+  highlight: 1
+
+
 - title: "Closing the mechanistic gap: the value of microarchitecture in understanding cognitive networks"
   image: TICS.png
   description: Contemporary research linking spatial patterns of neural activity to psychological constructs describes 'where' hypothesised functions occur, but not 'how' these regions contribute to cognition. This perspective highlights emerging insights into how microarchitecture can constrain network accounts of human cognition.
