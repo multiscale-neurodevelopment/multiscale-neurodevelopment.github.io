@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-We are open to new PhD students, Postdocs, and Master students to join the team. PhD position (3 year scholarship) now open for applications, see the call <a href="../images/Ausschreibung_PhD_neurodevelopment.pdf" target="_blank">PDF.</a>
+We are open to new PhD students, Postdocs, and Master students to join the team. 
 
 # Contact information
 Dr Casey Paquola - casey dot paquola at gmail dot com
