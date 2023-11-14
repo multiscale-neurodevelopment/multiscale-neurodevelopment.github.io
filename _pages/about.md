@@ -4,7 +4,7 @@ title: "About"
 ---
 
 # Contact information
-Dr Casey Paquola - casey dot paquola at gmail dot com
+Dr Casey Paquola - c.paquola@fz-juelich.de
 
 
 # Insitute of Neuroscience and Medicine (INM-7)
