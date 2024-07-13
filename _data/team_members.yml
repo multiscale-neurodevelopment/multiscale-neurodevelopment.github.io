@@ -1,11 +1,11 @@
-- name: Casey Paquola
+- name: Dr. Casey Paquola
   photo: Casey1.png
   info: Group Leader, started September 2021
-  email: casey.paquola@gmail.com
+  email: 
   number_educ: 3
-  education1: Postdoc at MNI, McGill University with Boris Bernhardt's MICA Lab
-  education2: PhD in Medicine, University of Sydney, Australia
-  education3: Bachelor of Science, University of Sydney, Australia
+  education1: Postdoc at the MNI, McGill University with Boris Bernhardt's MICA Lab
+  education2: PhD in Medicine, The University of Sydney, Australia
+  education3: Bachelor of Science (Advanced) (Honours), The University of Sydney, Australia
 
 - name: Thanos Tsigaras
   photo: Thanos1.jpeg
