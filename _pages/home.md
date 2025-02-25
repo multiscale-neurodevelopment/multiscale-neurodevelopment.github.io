@@ -66,5 +66,5 @@ We are very grateful for funding from the Deutsche Forschungsgemeinschaft via th
 
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Emmy.png" style="width: 210px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Emmy.jpg" style="width: 210px">
 </figure>
