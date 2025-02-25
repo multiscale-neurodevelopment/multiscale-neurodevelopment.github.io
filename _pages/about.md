@@ -8,7 +8,7 @@ Dr Casey Paquola - c.paquola@fz-juelich.de
 
 
 # Insitute of Neuroscience and Medicine (INM-7)
-Research at [INM-7](https://www.fz-juelich.de/inm/inm-7/EN/Home/home_node.html) centres on the relationship between the brain and behaviour. Our institute is specialises in integrating multi-modal neuroimaging data and using this information to develop machine learning models for predicting complex phenotypes. The Multiscale Neurodevelopment team is closely tied with the [Biomarkers Development group](https://www.fz-juelich.de/en/inm/inm-7/research-groups/biomarker-development).
+Research at [INM-7](https://www.fz-juelich.de/inm/inm-7/EN/Home/home_node.html) centres on the relationship between the brain and behaviour. Our institute is specialised in integrating multi-modal neuroimaging data and using this information to develop machine learning models to predicting complex behavioural phenotypes. The Multiscale Neurodevelopment team is closely tied with the [Biomarkers Development group](https://www.fz-juelich.de/en/inm/inm-7/research-groups/biomarker-development).
 
 
 # Forschungszentrum Jülich
