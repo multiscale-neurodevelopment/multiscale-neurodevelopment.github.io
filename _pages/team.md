@@ -6,7 +6,7 @@ sitemap: false
 permalink: /team/
 ---
 
-## Current Group Members
+### Current Group Members
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -70,7 +70,7 @@ permalink: /team/
 {% endif %}
 
 
-## Collaborators
+### Collaborators
 
 We work closely with the [MICA lab](https://mica-mni.github.io/) at the Montreal Neurological Institute (MNI), McGill University, Canada. 
 
