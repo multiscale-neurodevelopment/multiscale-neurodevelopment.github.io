@@ -1,3 +1,18 @@
+- title: "The architecture of the human default mode network explored through cytoarchitecture, wiring and signal flow"
+  image: DMN.png
+  description: A deep-dive into the architecture of the enigmatic default mode network (DMN) and a discussion of how its anatomy can account for its broad role in cognition.
+  authors: Paquola C, Garber M, Frässle S, Royer J, Zhou Y, Tavakol S, Rodriguez-Cruces R, Gift Cabalo D, Valk S, Eickhoff SB, Margulies DS, Evans AC, Amunts K, Jefferies E, Smallwood J & Bernhardt BC. 
+  link:
+    url: https://doi.org/10.1038/s41593-024-01868-0
+    display: Nature Neuroscience 2025
+  highlight: 1
+
+  title: "Schizophrenia polygenic risk during typical development reflects multiscale cortical organization."
+  authors: Kirschner M*, Paquola C*, Khundrakpam BS, Vainik U, Bhutani N, Santor B, Al-Sharif NB, Misic B Bernhardt BC, Evans AC & Dagher A
+  link:
+    url: https://doi.org/10.1016/j.bpsgos.2022.08.003
+  highlight: 0
+
 - title: "The potential of myelin-sensitive imaging: Redefining spatiotemporal patterns of myeloarchitecture"
   image: Myelin.png
   description: Recent advances in magnetic resonance imaging (MRI) pave the way for approximation of myelin content in-vivo. In this review, our main goal was to determine how to best capitalise on myelin-sensitive imaging.
