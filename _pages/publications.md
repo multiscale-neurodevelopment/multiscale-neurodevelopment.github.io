@@ -9,11 +9,11 @@ permalink: /publications/
 
 # Publications
 
-## Recent news
+### Recent news
 - [Ones To Watch: Young Neuroscientists on the Rise](https://www.nature.com/articles/d41586-024-03049-2)
 - [From Application to Award: How a Neuroscientist Secured the Emmy Noether Grant](https://gsonet.org/karrierewissen/casey-paquola-emmy-noether-grant/?lang=en)
 
-## Group highlights
+### Group highlights
 
 (For a full list of publications see [below](#full-list) or go to [Google Scholar](https://scholar.google.ch/citations?user=mKnsJ9AAAAAJ&hl=en))
 
@@ -55,7 +55,7 @@ permalink: /publications/
 
 <p> &nbsp; </p>
 
-## Full List
+### Full List
 
 {% for publi in site.data.publist %}
 
