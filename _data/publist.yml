@@ -1,7 +1,7 @@
 - title: "The architecture of the human default mode network explored through cytoarchitecture, wiring and signal flow"
   image: DMN_mini.png
   description: A deep-dive into the architecture of the enigmatic default mode network (DMN) and a discussion of how its anatomy can account for its broad role in cognition.
-  authors: Paquola C, Garber M, Frässle S, Royer J, Zhou Y, Tavakol S, Rodriguez-Cruces R, Gift Cabalo D, Valk S, Eickhoff SB, Margulies DS, Evans AC, Amunts K, Jefferies E, Smallwood J & Bernhardt BC. 
+  authors: Paquola C, et al., 
   link:
     url: https://doi.org/10.1038/s41593-024-01868-0
     display: Nature Neuroscience 2025
@@ -19,7 +19,7 @@
   authors: Paquola C & Hong, SJ
   link:
     url: https://doi.org/10.1016/j.biopsych.2022.08.031
-    display: BiolPsych 2022
+    display: Biological Psychiatry 2022
   highlight: 1
 
 
@@ -29,34 +29,34 @@
   authors: Paquola C, Amunts K, Evans AC, Smallwood J, Bernhardt BC.
   link:
     url: https://doi.org/10.1016/j.tics.2022.07.001
-    display: TICS 2022;07:001
+    display: TICS 2022
   highlight: 1
 
 - title: "The BigBrainWarp toolbox for integration of BigBrain 3D histology with multimodal neuroimaging"
   image: BBW.png
   description: Neuroimaging stands to benefit from emerging ultrahigh-resolution 3D histological atlases of the human brain; the first of which is 'BigBrain'. Here, we review recent methodological advances for the integration of BigBrain with multi-modal neuroimaging and introduce a toolbox, 'BigBrainWarp', that combines these developments. See more on the Tools page.
-  authors: Paquola C, Royer J, Lewis LB, Lepage C, Glatard T, Wagstyl K, DeKraker J, Toussaint PJ, Valk SL, Collins L, Khan AR, Amunts K, Evans AC, Dickscheid T, Bernhardt BC.
+  authors: Paquola C, et al.,
   link:
     url: https://elifesciences.org/articles/70119
-    display: eLife 2021;10:e70119
+    display: eLife 2021
   highlight: 1
 
 - title: "Convergence of cortical types and functional motifs in the mesiotemporal lobe"
   image: MTL.png
   description: The mesiotemporal lobe (MTL) is implicated in many cognitive processes, is compromised in numerous brain disorders, and exhibits a gradual cytoarchitectural transition from six-layered parahippocampal isocortex to three-layered hippocampal allocortex. Leveraging an ultra-high-resolution histological reconstruction of a human brain, our study showed that the dominant axis of MTL cytoarchitectural differentiation follows the iso-to-allocortical transition and depth-specific variations in neuronal density. Our findings establish that the combination of micro- and macrostructural features allow the MTL to represent dominant motifs of whole-brain functional organisation.
-  authors: Paquola C, Benkarim O, DeKraker J, Larivière S, Frässle S, Royer J, Tavakol S, Valk S, Bernasconi A, Bernasconi N, Khan A, Evans A, Razi A, Smallwood J & Bernhardt BC
+  authors: Paquola C, et al.,
   link:
     url: https://doi.org/10.7554/eLife.60673
-    display: eLife 2020;9:e60673
+    display: eLife 2020
   highlight: 1
 
 - title: "A multi-scale cortical wiring space links cellular architecture, functional dynamics and hierarchies in humans"
   image: DeepEmbedding.png
   description: The vast net of fibres within and underneath the cortex is optimised to support the convergence of different levels of brain organisation. Here, we propose a novel coordinate system of the human cortex based on an advanced model of its connectivity. Our approach is inspired by seminal, but so far largely neglected models of cortico–cortical wiring established by postmortem anatomical studies and capitalises on cutting-edge in vivo neuroimaging and machine learning. Our results advance our understanding of how cell-specific neurobiological gradients produce a hierarchical cortical wiring scheme that is concordant with increasing functional sophistication of human brain organisation. 
-  authors: Paquola C, Seidlitz J, Benkarim O, Royer J, Klimes P, Bethlehem RAI, Larivière S, Vos De Wael R, Hall J, Frauscher B, Smallwood J & Bernhardt BC
+  authors: Paquola C, et al.,
   link:
     url: https://doi.org/10.1371/journal.pbio.3000979
-    display: PLoS Biol 18(11):e3000979
+    display: PLoS Biol 2020
   highlight: 1
 
 - title: "Dispersion of functional gradient across the lifespan"
@@ -78,7 +78,7 @@
   description: Depth-dependent trajectories of intracortical myeloarchitectural development contribute to the maturation of structural hierarchies in the human neocortex, providing a model for adolescent development that bridges microstructural and macroscopic scales of brain organisation
   link:
     url: https://doi.org/10.7554/eLife.50482.001
-    display: eLife 2019;8:e50482
+    display: eLife 2019
   highlight: 1
 
 - title: "Targeting Age-Related Difference in Brain and Cognition with Multimodal Imaging and Connectome Topography Profiling"
@@ -90,8 +90,8 @@
 - title: "Microstructural and functional gradients are increasingly dissociated in transmodal cortices"
   image: Gradients.png
   description: We developed a novel approach to model the similarity of microstructural profiles sampled in the direction of cortical columns. Our approach was initially formulated based on an ultra-high–resolution 3D histological reconstruction of an entire human brain and then translated to myelin-sensitive magnetic resonance imaging (MRI) data in a large cohort of healthy adults. This novel method identified a system-level gradient of microstructural differentiation traversing from primary sensory to limbic regions that followed shifts in laminar differentiation and cytoarchitectural complexity.
-  authors: Paquola C, Vos De Wael R, Wagstyl K, Bethlehem R, Hong SJ, Seidlitz J, Evans AC, Mišić B, Bullmore E, Margulies DS, Smallwood J & Bernhardt BC
+  authors: Paquola C, et al.,
   link:
     url: https://doi.org/10.1371/journal.pbio.3000284
-    display: PLoS Biol 17(5):e3000284
+    display: PLoS Biol 2019
   highlight: 1
