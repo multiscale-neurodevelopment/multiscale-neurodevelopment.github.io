@@ -6,7 +6,7 @@ sitemap: false
 permalink: /team/
 ---
 
-### Current Group Members
+### The Multiscale Neurodevelopment Team
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
