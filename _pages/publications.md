@@ -10,6 +10,7 @@ permalink: /publications/
 # Publications
 
 ### Recent news
+- [L'Oreal For Women in Science Award](https://www.loreal.com/de-de/germany/pages/commitments/fwis/preistraegerinnen/)
 - [Ones To Watch: Young Neuroscientists on the Rise](https://www.nature.com/articles/d41586-024-03049-2)
 - [From Application to Award: How a Neuroscientist Secured the Emmy Noether Grant](https://gsonet.org/karrierewissen/casey-paquola-emmy-noether-grant/?lang=en)
 
