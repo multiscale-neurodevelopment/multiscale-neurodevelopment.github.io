@@ -60,7 +60,7 @@ The Multiscale Neurodevelopment Team studies the maturation of cytoarchitecture,
 
 Our research program is inspired by working at the interface of microscopy, neuroimaging and computational modelling. We combine post mortem data (histology and transcriptomics) with in vivo imaging (structural and functional MRI, intracranial EEG) to construct multiscale models of the human brain. We hold a special focus on microstructure, as a sort of lynchpin between post mortem and in vivo datasets, and work towards identifying overarching principles of cytoarchitectural organisation, such as the existence of large-scale gradients.
 
-We believe that state-of-the-art neuroanatomy should be incorporated into workflows across neuroscience, from clinical research to building artificial intelligence. To this end, the lab develops tools that support multi-scale approaches in neuroimaging (eg: [BigBrainWarp](https://bigbrainwarp.readthedocs.io/en/latest/)) and we generate standardised atlases of cortical organisation.
+We believe that state-of-the-art neuroanatomy should be incorporated into workflows across neuroscience, from clinical research to building artificial intelligence. To this end, the lab develops tools that support multi-scale approaches in neuroimaging (eg: [CortPro](https://github.com/caseypaquola/CortPro) & [BigBrainWarp](https://bigbrainwarp.readthedocs.io/en/latest/)) and we generate standardised atlases of cortical organisation.
 
 We are very grateful for funding from the Deutsche Forschungsgemeinschaft via the Emmy Noether Programme.
 
