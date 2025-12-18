@@ -2,11 +2,10 @@
   photo: Casey1.jpg
   info: Group Leader
   email: 
-  number_educ: 4
-  education1: Emmy Noether Programme Group Leader
-  education2: Postdoctoral fellow at the MNI, McGill University with Boris Bernhardt's MICA Lab
-  education3: PhD in Medicine, The University of Sydney, Australia
-  education4: Bachelor of Science in Neuroscience and the History and Philosophy of Science (Advanced, Honours), The University of Sydney, Australia
+  number_educ: 3
+  education1: Postdoctoral fellow, Montreal Neurological Institute, McGill University, Canada
+  education2: PhD in Medicine, The University of Sydney, Australia
+  education3: Bachelor of Science, The University of Sydney, Australia
 
 - name: Thanos Tsigaras
   photo: Thanos1.jpeg
@@ -19,7 +18,7 @@
 
 - name: Zahra Moradimanesh
   photo: Zahra1.jpg
-  info: Postdoctoral researcher, starting March 2025
+  info: Postdoctoral researcher, started May 2025
   email:
   number_educ: 2
   education1: PhD in Cognitive Modeling, Shahid Beheshti University, Iran
