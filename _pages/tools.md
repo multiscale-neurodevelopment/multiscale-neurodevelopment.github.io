@@ -10,7 +10,7 @@ permalink: /tools/
 
 We're focused on creating neuroanatomical models that can be used across neuroscience. This often entails developing approaches that enable data-driven analysis of brain organisation. In the following section, you'll find descriptions and links to utilities and tools that we've developed.
 
-**CortPro.** Depth-wise variations in image intensity can reveal architectonic differences across the cortex. We developed and validated a standardised procedure to generate microstructure profiles using either post mortem stained tissue or MRI. You can find the updated code as [CortPro](https://github.com/caseypaquola/CortPro).
+**CortPro.** Depth-wise variations in image intensity can reveal architectonic differences across the cortex. We developed and validated a standardised procedure to generate microstructure profiles using either post mortem stained tissue or MRI. Our approach is simply wrapped as one lline of code via [CortPro](https://github.com/caseypaquola/CortPro).
 
 ![]({{ site.url }}{{ site.baseurl }}/images/logopic/cortpro.png){: style="width: 250px; float: center; margin: 0px  10px"}
 
