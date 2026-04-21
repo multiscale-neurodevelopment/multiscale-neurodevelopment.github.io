@@ -1,23 +1,32 @@
 - title: "Intracortical microstructure profiling: a cross-modal method for indexing cortical lamination"
   image: cortpro_logo.png
   description: Exploration of the validity, reliability and replicability of in vivo microstructure profiles, alongside the release of the CortPro toolbox.
-  authors: Paquola C, et al., 
+  authors: Paquola, et al., 
   link:
     url: https://doi.org/10.1162/IMAG.a.1212
     display: Imaging Neuroscience 2026
   highlight: 1
 
+- title: "Prenatal and early postnatal periods differentially shape the maturation of human cortical microstructure and myelin"
+  image: infant_micro.png
+  description: Probing perinatal cortical development using T1w/T2w profiling shows distinctive influences of gestational and postnatal durations on layer-wise maturation of myelin.
+  authors: Tsigaras et al.,  
+  link:
+    url: https://doi.org/10.1371/journal.pbio.3003722
+    display: PLoS Biology 2026
+  highlight: 1
+
 - title: "The architecture of the human default mode network explored through cytoarchitecture, wiring and signal flow"
   image: DMN_mini.png
   description: A deep-dive into the architecture of the enigmatic default mode network (DMN) and a discussion of how its anatomy can account for its broad role in cognition.
-  authors: Paquola C, et al., 
+  authors: Paquola, et al., 
   link:
     url: https://doi.org/10.1038/s41593-024-01868-0
     display: Nature Neuroscience 2025
   highlight: 1
 
 - title: "Schizophrenia polygenic risk during typical development reflects multiscale cortical organization."
-  authors: Kirschner M*, Paquola C*, Khundrakpam BS, Vainik U, Bhutani N, Santor B, Al-Sharif NB, Misic B Bernhardt BC, Evans AC & Dagher A
+  authors: Kirschner*, Paquola*, et al.,
   link:
     url: https://doi.org/10.1016/j.bpsgos.2022.08.003
   highlight: 0
@@ -25,7 +34,7 @@
 - title: "The potential of myelin-sensitive imaging: Redefining spatiotemporal patterns of myeloarchitecture"
   image: Myelin.png
   description: Recent advances in magnetic resonance imaging (MRI) pave the way for approximation of myelin content in-vivo. In this review, our main goal was to determine how to best capitalise on myelin-sensitive imaging.
-  authors: Paquola C & Hong, SJ
+  authors: Paquola & Hong
   link:
     url: https://doi.org/10.1016/j.biopsych.2022.08.031
     display: Biological Psychiatry 2022
@@ -35,7 +44,7 @@
 - title: "Closing the mechanistic gap: the value of microarchitecture in understanding cognitive networks"
   image: TICS.png
   description: Contemporary research linking spatial patterns of neural activity to psychological constructs describes 'where' hypothesised functions occur, but not 'how' these regions contribute to cognition. This perspective highlights emerging insights into how microarchitecture can constrain network accounts of human cognition.
-  authors: Paquola C, Amunts K, Evans AC, Smallwood J, Bernhardt BC.
+  authors: Paquola et al.,
   link:
     url: https://doi.org/10.1016/j.tics.2022.07.001
     display: TICS 2022
@@ -44,7 +53,7 @@
 - title: "The BigBrainWarp toolbox for integration of BigBrain 3D histology with multimodal neuroimaging"
   image: BBW.png
   description: Neuroimaging stands to benefit from emerging ultrahigh-resolution 3D histological atlases of the human brain; the first of which is 'BigBrain'. Here, we review recent methodological advances for the integration of BigBrain with multi-modal neuroimaging and introduce a toolbox, 'BigBrainWarp', that combines these developments. See more on the Tools page.
-  authors: Paquola C, et al.,
+  authors: Paquola, et al.,
   link:
     url: https://elifesciences.org/articles/70119
     display: eLife 2021
@@ -53,7 +62,7 @@
 - title: "Convergence of cortical types and functional motifs in the mesiotemporal lobe"
   image: MTL.png
   description: The mesiotemporal lobe (MTL) is implicated in many cognitive processes, is compromised in numerous brain disorders, and exhibits a gradual cytoarchitectural transition from six-layered parahippocampal isocortex to three-layered hippocampal allocortex. Leveraging an ultra-high-resolution histological reconstruction of a human brain, our study showed that the dominant axis of MTL cytoarchitectural differentiation follows the iso-to-allocortical transition and depth-specific variations in neuronal density. Our findings establish that the combination of micro- and macrostructural features allow the MTL to represent dominant motifs of whole-brain functional organisation.
-  authors: Paquola C, et al.,
+  authors: Paquola, et al.,
   link:
     url: https://doi.org/10.7554/eLife.60673
     display: eLife 2020
@@ -62,28 +71,28 @@
 - title: "A multi-scale cortical wiring space links cellular architecture, functional dynamics and hierarchies in humans"
   image: DeepEmbedding.png
   description: The vast net of fibres within and underneath the cortex is optimised to support the convergence of different levels of brain organisation. Here, we propose a novel coordinate system of the human cortex based on an advanced model of its connectivity. Our approach is inspired by seminal, but so far largely neglected models of cortico–cortical wiring established by postmortem anatomical studies and capitalises on cutting-edge in vivo neuroimaging and machine learning. Our results advance our understanding of how cell-specific neurobiological gradients produce a hierarchical cortical wiring scheme that is concordant with increasing functional sophistication of human brain organisation. 
-  authors: Paquola C, et al.,
+  authors: Paquola, et al.,
   link:
     url: https://doi.org/10.1371/journal.pbio.3000979
-    display: PLoS Biol 2020
+    display: PLoS Biology 2020
   highlight: 1
 
 - title: "Dispersion of functional gradient across the lifespan"
   description:
-  authors: Bethlehem RAI*, Paquola C*, Seidlitz J, Ronan L, Bernhardt BC, Cam-CAN Consortium & Tsvetanov K
+  authors: Bethlehem*, Paquola* et al.,
   link:
     url: https://doi.org/10.1016/j.neuroimage.2020.117299
   highlight: 0
 
 - title: "Myeloarchitecture gradients in the human insula: Histological underpinnings and association to intrinsic functional connectivity"
-  authors: Royer J*, Paquola C*, Larivière S, Vos de Wael R, Tavakol S, Lowe A, Benkarim O, Evans AC, Bzdok D, Smallwood J, Frauscher B & Bernhardt BC
+  authors: Royer*, Paquola* et al.,
   link:
     url: https://doi.org/10.1016/j.neuroimage.2020.116859
   highlight: 0
 
 - title: "Shifts in myeloarchitecture characterise adolescent development of cortical gradients"
   image: MomentsOfChange.png
-  authors: Paquola C*, Bethlehem RAI*, Seidlitz J, Wagstyl K, Romero-Garcia R, Whitaker KJ, Vos De Wael R, Williams GB, NSPN Consortium, Vértes PE, Margulies DS, Bernhardt BC & Bullmore, ET
+  authors: Paquola*, Bethlehem* et al.,
   description: Depth-dependent trajectories of intracortical myeloarchitectural development contribute to the maturation of structural hierarchies in the human neocortex, providing a model for adolescent development that bridges microstructural and macroscopic scales of brain organisation
   link:
     url: https://doi.org/10.7554/eLife.50482.001
@@ -91,7 +100,7 @@
   highlight: 1
 
 - title: "Targeting Age-Related Difference in Brain and Cognition with Multimodal Imaging and Connectome Topography Profiling"
-  authors: Lowe A*, Paquola C*, Vos de Wael R, Girn M, Larivière S, Tavakol S, Caldairou B, Royer J, Schrader D, Bernasconi A, Bernasconi N, Spreng N & Bernhardt BC
+  authors: Lowe*, Paquola* et al.,
   link:
     url: https://doi.org/10.1002/hbm.24767
   highlight: 0
@@ -99,8 +108,8 @@
 - title: "Microstructural and functional gradients are increasingly dissociated in transmodal cortices"
   image: Gradients.png
   description: We developed a novel approach to model the similarity of microstructural profiles sampled in the direction of cortical columns. Our approach was initially formulated based on an ultra-high–resolution 3D histological reconstruction of an entire human brain and then translated to myelin-sensitive magnetic resonance imaging (MRI) data in a large cohort of healthy adults. This novel method identified a system-level gradient of microstructural differentiation traversing from primary sensory to limbic regions that followed shifts in laminar differentiation and cytoarchitectural complexity.
-  authors: Paquola C, et al.,
+  authors: Paquola et al.,
   link:
     url: https://doi.org/10.1371/journal.pbio.3000284
-    display: PLoS Biol 2019
+    display: PLoS Biology 2019
   highlight: 1
