@@ -1,7 +1,7 @@
 - title: "Intracortical microstructure profiling: a cross-modal method for indexing cortical lamination"
   image: cortpro_logo.png
   description: Exploration of the validity, reliability and replicability of in vivo microstructure profiles, alongside the release of the CortPro toolbox.
-  authors: Paquola, et al., 
+  authors: Paquola et al., 
   link:
     url: https://doi.org/10.1162/IMAG.a.1212
     display: Imaging Neuroscience 2026
@@ -19,7 +19,7 @@
 - title: "The architecture of the human default mode network explored through cytoarchitecture, wiring and signal flow"
   image: DMN_mini.png
   description: A deep-dive into the architecture of the enigmatic default mode network (DMN) and a discussion of how its anatomy can account for its broad role in cognition.
-  authors: Paquola, et al., 
+  authors: Paquola et al., 
   link:
     url: https://doi.org/10.1038/s41593-024-01868-0
     display: Nature Neuroscience 2025
@@ -53,7 +53,7 @@
 - title: "The BigBrainWarp toolbox for integration of BigBrain 3D histology with multimodal neuroimaging"
   image: BBW.png
   description: Neuroimaging stands to benefit from emerging ultrahigh-resolution 3D histological atlases of the human brain; the first of which is 'BigBrain'. Here, we review recent methodological advances for the integration of BigBrain with multi-modal neuroimaging and introduce a toolbox, 'BigBrainWarp', that combines these developments. See more on the Tools page.
-  authors: Paquola, et al.,
+  authors: Paquola et al.,
   link:
     url: https://elifesciences.org/articles/70119
     display: eLife 2021
@@ -62,7 +62,7 @@
 - title: "Convergence of cortical types and functional motifs in the mesiotemporal lobe"
   image: MTL.png
   description: The mesiotemporal lobe (MTL) is implicated in many cognitive processes, is compromised in numerous brain disorders, and exhibits a gradual cytoarchitectural transition from six-layered parahippocampal isocortex to three-layered hippocampal allocortex. Leveraging an ultra-high-resolution histological reconstruction of a human brain, our study showed that the dominant axis of MTL cytoarchitectural differentiation follows the iso-to-allocortical transition and depth-specific variations in neuronal density. Our findings establish that the combination of micro- and macrostructural features allow the MTL to represent dominant motifs of whole-brain functional organisation.
-  authors: Paquola, et al.,
+  authors: Paquola et al.,
   link:
     url: https://doi.org/10.7554/eLife.60673
     display: eLife 2020
@@ -71,7 +71,7 @@
 - title: "A multi-scale cortical wiring space links cellular architecture, functional dynamics and hierarchies in humans"
   image: DeepEmbedding.png
   description: The vast net of fibres within and underneath the cortex is optimised to support the convergence of different levels of brain organisation. Here, we propose a novel coordinate system of the human cortex based on an advanced model of its connectivity. Our approach is inspired by seminal, but so far largely neglected models of cortico–cortical wiring established by postmortem anatomical studies and capitalises on cutting-edge in vivo neuroimaging and machine learning. Our results advance our understanding of how cell-specific neurobiological gradients produce a hierarchical cortical wiring scheme that is concordant with increasing functional sophistication of human brain organisation. 
-  authors: Paquola, et al.,
+  authors: Paquola et al.,
   link:
     url: https://doi.org/10.1371/journal.pbio.3000979
     display: PLoS Biology 2020
