@@ -1,3 +1,12 @@
+- title: "Intracortical microstructure profiling: a cross-modal method for indexing cortical lamination"
+  image: cortpro_logo.png
+  description: Deep-dive into the validity, reliability and replicability of in vivo microstructure profiles, alongside the release of the CortPro toolbox.
+  authors: Paquola C, et al., 
+  link:
+    url: https://doi.org/10.1162/IMAG.a.1212
+    display: Imaging Neuroscience 2026
+  highlight: 1
+
 - title: "The architecture of the human default mode network explored through cytoarchitecture, wiring and signal flow"
   image: DMN_mini.png
   description: A deep-dive into the architecture of the enigmatic default mode network (DMN) and a discussion of how its anatomy can account for its broad role in cognition.
