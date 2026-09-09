@@ -6,9 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-We are a new research group in [INM-7 at Forschungszentrum Juelich](https://www.fz-juelich.de/inm/inm-7/EN/Home/home_node.html) studying the organisation and development of the human brain.
-
-We're currently open to applications for PhD and PostDoc positions. If you would like to apply, [contact us](https://multiscale-neurodevelopment.github.io/about/) with your CV and a cover letter.
+We are a  research group in [INM-7 at Forschungszentrum Juelich](https://www.fz-juelich.de/inm/inm-7/EN/Home/home_node.html) studying the organisation and development of the human brain.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
