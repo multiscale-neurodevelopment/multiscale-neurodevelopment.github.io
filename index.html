@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Multiscale Neurodevelopment Lab — INM-7, Forschungszentrum Jülich</title>
+<meta name="description" content="A research group at INM-7, Forschungszentrum Jülich, studying the multiscale organisation and development of the human brain.">
+<link rel="icon" type="image/png" href="images/brand/logo.png">
+<meta property="og:title" content="Multiscale Neurodevelopment Lab — INM-7, Forschungszentrum Jülich">
+<meta property="og:description" content="Studying the organisation and development of the human brain across scales — from microscopy to neuroimaging to computational modelling.">
+<meta property="og:image" content="https://multiscale-neurodevelopment.github.io/images/brand/logo.png">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0d13;
+    --bg-alt:#111520;
+    --surface:#151a26;
+    --line:#242b3d;
+    --text:#e7e9ee;
+    --text-dim:#9aa3b5;
+    --text-faint:#6b7387;
+    --teal:#4fd1c0;
+    --amber:#e7a33e;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter', sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,h4{
+    font-family:'Inter', sans-serif;
+    font-weight:500;
+    line-height:1.15;
+    letter-spacing:0.001em;
+  }
+  a{color:inherit; text-decoration:none;}
+  img{max-width:100%; display:block;}
+  .wrap{max-width:1080px; margin:0 auto; padding:0 32px;}
+  section{padding:112px 0;}
+  .rule{border-top:1px solid var(--line);}
+
+  /* focus visibility */
+  a:focus-visible, button:focus-visible{
+    outline:2px solid var(--teal); outline-offset:3px;
+  }
+
+  /* ---------- nav ---------- */
+  header{
+    position:sticky; top:0; z-index:50;
+    background:rgba(10,13,19,0.86);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  nav.wrap{
+    display:flex; align-items:center; justify-content:space-between;
+    height:68px;
+  }
+  .brand{display:flex; align-items:center;}
+  .brand img{height:36px; width:auto;}
+  .navlinks{display:flex; gap:30px;}
+  .navlinks a{
+    font-size:14.5px; color:var(--text-dim);
+    transition:color .15s ease;
+    position:relative;
+    padding-bottom:2px;
+  }
+  .navlinks a:hover{color:var(--teal);}
+  .navlinks a.active{color:var(--teal);}
+  .navlinks a.active::after{
+    content:'';
+    position:absolute; left:0; right:0; bottom:-4px;
+    height:1.5px; background:var(--teal);
+  }
+  .navtoggle{display:none; background:none; border:none; color:var(--text); font-size:22px; cursor:pointer;}
+
+  @media (max-width:760px){
+    .navlinks{
+      position:absolute; top:68px; left:0; right:0;
+      flex-direction:column; gap:0;
+      background:var(--bg-alt); border-bottom:1px solid var(--line);
+      max-height:0; overflow:hidden; transition:max-height .25s ease;
+    }
+    .navlinks.open{max-height:320px;}
+    .navlinks a{padding:16px 32px; border-top:1px solid var(--line);}
+    .navtoggle{display:block;}
+  }
+
+  /* ---------- hero ---------- */
+  .hero{
+    position:relative;
+    padding:120px 0 96px;
+    overflow:hidden;
+  }
+  .hero-grid{
+    display:grid; grid-template-columns:1.1fr 0.9fr; gap:48px; align-items:center;
+  }
+  .kicker{
+    color:var(--teal); font-size:14.5px; margin-bottom:18px;
+  }
+  .hero h1{
+    font-size:clamp(34px, 5vw, 54px);
+    color:var(--text);
+    max-width:11ch;
+  }
+  .hero p.lede{
+    margin-top:24px; max-width:52ch;
+    color:var(--text-dim); font-size:17px;
+  }
+  .hero-figure{
+    position:relative; aspect-ratio:1/1;
+    overflow:hidden;
+  }
+  .hero-figure img{
+    width:100%; height:100%; object-fit:cover;
+    filter:saturate(1.1) brightness(0.95);
+  }
+  .hero-figure-fade{
+    position:absolute; inset:0;
+    background:radial-gradient(circle at 50% 50%, rgba(10,13,19,0) 45%, var(--bg) 92%);
+    pointer-events:none;
+  }
+  @media (max-width:800px){
+    .hero-figure{display:none;}
+    .hero-grid{grid-template-columns:1fr;}
+  }
+
+  /* ---------- section headers ---------- */
+  .section-head{
+    display:flex; justify-content:space-between; align-items:baseline;
+    gap:24px; margin-bottom:48px; flex-wrap:wrap;
+  }
+  .section-head h2{
+    font-size:clamp(26px, 3vw, 34px);
+  }
+  .section-head .sub{color:var(--text-faint); font-size:14.5px; max-width:34ch;}
+
+    /* ---------- research ---------- */
+  .research-body{
+    max-width:70ch;
+  }
+  .research-body p{color:var(--text-dim); margin-bottom:18px; font-size:15.5px;}
+  .research-body p:last-child{margin-bottom:0;}
+  .research-figure{
+    margin-top:48px;
+    border:1px solid var(--line); background:var(--surface);
+    overflow:hidden;
+  }
+  .research-figure a{display:block;}
+  .research-figure img{
+    width:100%; height:auto; display:block;
+    filter:saturate(1.05);
+    transition:transform .4s ease, filter .4s ease;
+  }
+  .research-figure a:hover img, .research-figure a:focus-visible img{
+    transform:scale(1.02);
+    filter:saturate(1.15) brightness(1.05);
+  }
+  .research-figure figcaption{
+    padding:12px 16px; font-size:12.5px; color:var(--text-faint);
+    border-top:1px solid var(--line);
+  }
+
+  /* ---------- publications ---------- */
+  .news-list{list-style:none; margin-bottom:56px;}
+  .news-list li{
+    padding:14px 0; border-top:1px solid var(--line);
+    display:flex; gap:18px; font-size:14.5px; color:var(--text-dim);
+  }
+  .news-list li:last-child{border-bottom:1px solid var(--line);}
+  .news-list a{color:var(--text); transition:color .15s ease;}
+  .news-list a:hover{color:var(--teal);}
+
+  .pub{
+    display:grid; grid-template-columns:110px 1fr; gap:24px;
+    padding:28px 0; border-top:1px solid var(--line);
+  }
+  .pub:last-of-type{border-bottom:1px solid var(--line);}
+  .pub img{
+    width:110px; height:110px; object-fit:cover; border:1px solid var(--line);
+  }
+  .pub h3{font-size:19px; margin-bottom:8px; color:var(--text); max-width:46ch;}
+  .pub .meta{color:var(--amber); font-size:13.5px; margin-bottom:8px;}
+  .pub p{color:var(--text-dim); font-size:14.5px; max-width:60ch;}
+  .pub a.journal{color:var(--teal);}
+  @media (max-width:600px){
+    .pub{grid-template-columns:1fr;}
+    .pub img{width:72px; height:72px;}
+  }
+
+  .scholar-link{
+    display:inline-block; margin-top:32px; font-size:14.5px; color:var(--teal);
+    border-bottom:1px solid rgba(79,209,192,0.4);
+    padding-bottom:2px;
+  }
+
+  /* ---------- tools ---------- */
+  .tools-grid{
+    display:grid; grid-template-columns:1fr 1fr; gap:40px;
+  }
+  .tool-card{
+    background:var(--surface); border:1px solid var(--line);
+    padding:28px;
+  }
+  .tool-card img{
+    width:100%; height:150px; object-fit:contain;
+    background:#0d1119; border:1px solid var(--line);
+    padding:14px; margin-bottom:22px;
+  }
+  .tool-card h3{font-size:20px; margin-bottom:10px;}
+  .tool-card p{color:var(--text-dim); font-size:14.5px; margin-bottom:16px;}
+  .tool-card a{color:var(--teal); font-size:14px;}
+  @media (max-width:760px){.tools-grid{grid-template-columns:1fr;}}
+
+  /* ---------- team ---------- */
+  .team-grid{
+    display:grid; grid-template-columns:repeat(3,1fr); gap:32px;
+  }
+  .member img{
+    width:100%; aspect-ratio:1/1; object-fit:cover;
+    filter:grayscale(0.15);
+    border:1px solid var(--line);
+  }
+  .member h3{font-size:18px; margin-top:18px;}
+  .member .role{color:var(--teal); font-size:13.5px; margin:4px 0 12px;}
+  .member ul{list-style:none; color:var(--text-faint); font-size:13.5px;}
+  .member ul li{padding:3px 0; border-top:1px solid var(--line); padding-top:6px; margin-top:6px;}
+  .member ul li:first-child{border-top:none; margin-top:0;}
+  @media (max-width:760px){.team-grid{grid-template-columns:1fr 1fr; gap:24px;}}
+  @media (max-width:520px){.team-grid{grid-template-columns:1fr;}}
+
+  /* ---------- about ---------- */
+  .about-grid{
+    display:grid; grid-template-columns:1fr 1fr; gap:64px;
+  }
+  .about-grid p{color:var(--text-dim); font-size:15px; margin-bottom:16px;}
+  .about-grid h3{font-size:17px; margin:26px 0 10px; color:var(--text);}
+  .about-grid h3:first-child{margin-top:0;}
+  .contact-card{
+    border:1px solid var(--line); background:var(--surface);
+    padding:26px; margin-top:4px;
+  }
+  .contact-card .name{font-family:'Inter', sans-serif; font-size:18px;}
+  .contact-card .email{color:var(--teal); font-size:14.5px; margin-top:6px; display:inline-block;}
+  .about-photo{border:1px solid var(--line); overflow:hidden; margin-top:18px;}
+  .about-photo img{height:190px; width:100%; object-fit:cover;}
+
+  .funding{
+    margin-top:64px; padding-top:40px; border-top:1px solid var(--line);
+    display:flex; align-items:center; gap:20px; flex-wrap:wrap;
+  }
+  .funding img{height:52px; width:auto; filter:brightness(0.95);}
+  .funding p{color:var(--text-faint); font-size:13.5px; max-width:52ch;}
+
+  footer{
+    border-top:1px solid var(--line); padding:32px 0;
+  }
+  footer .wrap{
+    display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px;
+    color:var(--text-faint); font-size:13px;
+  }
+  footer a{color:var(--text-dim);}
+
+  /* ---------- back to top ---------- */
+  #toTop{
+    position:fixed; right:24px; bottom:24px; z-index:40;
+    width:42px; height:42px;
+    background:var(--surface); border:1px solid var(--line);
+    color:var(--text-dim);
+    display:flex; align-items:center; justify-content:center;
+    cursor:pointer;
+    opacity:0; visibility:hidden; transform:translateY(6px);
+    transition:opacity .2s ease, transform .2s ease, color .15s ease, border-color .15s ease;
+  }
+  #toTop.visible{opacity:1; visibility:visible; transform:translateY(0);}
+  #toTop:hover{color:var(--teal); border-color:var(--teal);}
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <a class="brand" href="#" aria-label="Multiscale Neurodevelopment, INM-7">
+      <img src="images/brand/logo.png" alt="MuNe — Multiscale Neurodevelopment, INM-7">
+    </a>
+    <button class="navtoggle" aria-label="Toggle navigation" aria-expanded="false" id="navToggle">☰</button>
+    <div class="navlinks" id="navLinks">
+      <a href="#research" data-section="research">Research</a>
+      <a href="#news" data-section="news">News</a>
+      <a href="#publications" data-section="publications">Publications</a>
+      <a href="#tools" data-section="tools">Tools</a>
+      <a href="#team" data-section="team">Team</a>
+      <a href="#about" data-section="about">About &amp; contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="kicker">The human brain across space and time</div>
+        <h1>Multiscale Neurodevelopment Lab</h1>
+        <p class="lede">We study how cytoarchitecture, connectivity and functional dynamics mature across early life, working at the interface of microscopy, neuroimaging and computational modelling.</p>
+        <p class="lede">Based at INM-7, Forschungszentrum Jülich, and funded by the Deutsche Forschungsgemeinschaft and the Horizon Europe.</p>
+      </div>
+      <div class="hero-figure" aria-hidden="true">
+        <img src="images/general/multimodal_slices.jpg" alt="">
+        <div class="hero-figure-fade"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="rule"></div>
+
+    <!-- RESEARCH -->
+  <section id="research">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Research</h2>
+        <p class="sub">Building multiscale models of the developing human brain.</p>
+      </div>
+      <div class="research-body">
+        <p>Developmental changes in the human brain are profound and multi-factorial. We use multiscale frameworks to better understand how the cortex matures — and where that maturation goes awry in neurodevelopmental disorders.</p>
+        <p>We combine post-mortem data (histology and transcriptomics) with in vivo imaging (structural and functional MRI, intracranial EEG) to construct models that span these levels of organisation. Microstructure holds a special place in this work: a lynchpin between post-mortem and in vivo datasets, and a route to identifying overarching principles of cytoarchitectural organisation, such as large-scale cortical gradients.</p>
+        <p>We believe state-of-the-art neuroanatomy should be incorporated into workflows across neuroscience, from clinical research to building artificial intelligence — and we develop open tools and atlases toward that end.</p>
+      </div>
+      <figure class="research-figure">
+        <a href="https://doi.org/10.1371/journal.pbio.3003722" target="_blank" rel="noopener">
+          <img src="images/general/spacetime2.jpg" alt="Cortical mesh reconstructions from prenatal to adulthood, illustrating developmental change over time">
+        </a>
+      </figure>
+    </div>
+  </section>
+
+  <div class="rule"></div>
+
+  <!-- NEWS -->
+  <section id="news">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>News</h2>
+        <p class="sub">Awards and recognition for the group.</p>
+      </div>
+      <ul class="news-list">
+        <li><a href="https://www.fz-juelich.de/en/news/archive/press-release/2026/two-erc-starting-grants-for-julich-researchers" target="_blank" rel="noopener">2026: ERC Starting Grant</a></li>
+        <li><a href="https://www.bayer-foundation.com/groundbreaking-research-chemist-lutz-ackermann-receives-bayer-foundations-hansen-family-award" target="_blank" rel="noopener">2025: Bayer Foundation's Early Excellence in Science Award</a></li>
+        <li><a href="https://www.loreal.com/de-de/germany/pages/commitments/fwis/preistraegerinnen/" target="_blank" rel="noopener">2025: L'Oréal For Women in Science Award</a></li>
+        <li><a href="https://www.nature.com/articles/d41586-024-03049-2" target="_blank" rel="noopener">2024: Ones To Watch: Young Neuroscientists on the Rise, Nature</a></li>
+        <li><a href="https://gsonet.org/karrierewissen/casey-paquola-emmy-noether-grant/?lang=en" target="_blank" rel="noopener">2024: From Application to Award: How a Neuroscientist Secured the Emmy Noether Grant</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Publications</h2>
+        <p class="sub">Selected work from the group.</p>
+      </div>
+
+      <div class="pub-list">
+
+        <article class="pub">
+          <img src="images/pubpic/cortpro_logo.png" alt="">
+          <div>
+            <div class="meta">Paquola et al. · Imaging Neuroscience, 2026</div>
+            <h3>Intracortical microstructure profiling: a cross-modal method for indexing cortical lamination</h3>
+            <p>Exploration of the validity, reliability and replicability of in vivo microstructure profiles, alongside the release of the CortPro toolbox. <a class="journal" href="https://doi.org/10.1162/IMAG.a.1212" target="_blank" rel="noopener">Read the paper →</a></p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <img src="images/pubpic/infant_micro.png" alt="">
+          <div>
+            <div class="meta">Tsigaras et al. · PLoS Biology, 2026</div>
+            <h3>Prenatal and early postnatal periods differentially shape the maturation of human cortical microstructure and myelin</h3>
+            <p>Probing perinatal cortical development using T1w/T2w profiling shows distinctive influences of gestational and postnatal durations on layer-wise maturation of myelin. <a class="journal" href="https://doi.org/10.1371/journal.pbio.3003722" target="_blank" rel="noopener">Read the paper →</a></p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <img src="images/pubpic/DMN_mini.png" alt="">
+          <div>
+            <div class="meta">Paquola et al. · Nature Neuroscience, 2025</div>
+            <h3>The architecture of the human default mode network explored through cytoarchitecture, wiring and signal flow</h3>
+            <p>A deep-dive into the architecture of the default mode network, and how its anatomy accounts for its broad role in cognition. <a class="journal" href="https://doi.org/10.1038/s41593-024-01868-0" target="_blank" rel="noopener">Read the paper →</a></p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <img src="images/pubpic/Myelin.png" alt="">
+          <div>
+            <div class="meta">Paquola &amp; Hong · Biological Psychiatry, 2022</div>
+            <h3>The potential of myelin-sensitive imaging: redefining spatiotemporal patterns of myeloarchitecture</h3>
+            <p>A review of how recent MRI advances allow in vivo approximation of myelin content, and how to best capitalise on myelin-sensitive imaging. <a class="journal" href="https://doi.org/10.1016/j.biopsych.2022.08.031" target="_blank" rel="noopener">Read the paper →</a></p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <img src="images/pubpic/TICS.png" alt="">
+          <div>
+            <div class="meta">Paquola et al. · Trends in Cognitive Sciences, 2022</div>
+            <h3>Closing the mechanistic gap: the value of microarchitecture in understanding cognitive networks</h3>
+            <p>A perspective on how microarchitecture can constrain network accounts of human cognition, beyond describing where functions occur. <a class="journal" href="https://doi.org/10.1016/j.tics.2022.07.001" target="_blank" rel="noopener">Read the paper →</a></p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <img src="images/pubpic/BBW.png" alt="">
+          <div>
+            <div class="meta">Paquola et al. · eLife, 2021</div>
+            <h3>The BigBrainWarp toolbox for integration of BigBrain 3D histology with multimodal neuroimaging</h3>
+            <p>A review of methods for integrating the BigBrain ultra-high-resolution histological atlas with multimodal neuroimaging, and the toolbox that combines them. <a class="journal" href="https://elifesciences.org/articles/70119" target="_blank" rel="noopener">Read the paper →</a></p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <img src="images/pubpic/MTL.png" alt="">
+          <div>
+            <div class="meta">Paquola et al. · eLife, 2020</div>
+            <h3>Convergence of cortical types and functional motifs in the mesiotemporal lobe</h3>
+            <p>An ultra-high-resolution histological reconstruction shows the mesiotemporal lobe's dominant axis of differentiation follows the iso-to-allocortical transition. <a class="journal" href="https://doi.org/10.7554/eLife.60673" target="_blank" rel="noopener">Read the paper →</a></p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <img src="images/pubpic/DeepEmbedding.png" alt="">
+          <div>
+            <div class="meta">Paquola et al. · PLoS Biology, 2020</div>
+            <h3>A multi-scale cortical wiring space links cellular architecture, functional dynamics and hierarchies in humans</h3>
+            <p>A novel coordinate system of the human cortex built from an advanced connectivity model, linking cell-specific gradients to functional hierarchy. <a class="journal" href="https://doi.org/10.1371/journal.pbio.3000979" target="_blank" rel="noopener">Read the paper →</a></p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <img src="images/pubpic/MomentsOfChange.png" alt="">
+          <div>
+            <div class="meta">Paquola, Bethlehem et al. · eLife, 2019</div>
+            <h3>Shifts in myeloarchitecture characterise adolescent development of cortical gradients</h3>
+            <p>Depth-dependent trajectories of intracortical myeloarchitecural development contribute to the maturation of structural hierarchies in the neocortex. <a class="journal" href="https://doi.org/10.7554/eLife.50482.001" target="_blank" rel="noopener">Read the paper →</a></p>
+          </div>
+        </article>
+
+        <article class="pub">
+          <img src="images/pubpic/Gradients.png" alt="">
+          <div>
+            <div class="meta">Paquola et al. · PLoS Biology, 2019</div>
+            <h3>Microstructural and functional gradients are increasingly dissociated in transmodal cortices</h3>
+            <p>A novel approach for modelling microstructural profile similarity reveals a system-level gradient from primary sensory to limbic regions. <a class="journal" href="https://doi.org/10.1371/journal.pbio.3000284" target="_blank" rel="noopener">Read the paper →</a></p>
+          </div>
+        </article>
+
+      </div>
+
+      <a class="scholar-link" href="https://scholar.google.ch/citations?user=mKnsJ9AAAAAJ&hl=en" target="_blank" rel="noopener">See the full publication list on Google Scholar →</a>
+    </div>
+  </section>
+
+  <div class="rule"></div>
+
+  <!-- TOOLS -->
+  <section id="tools">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Tools</h2>
+        <p class="sub">Open-source toolboxes.</p>
+      </div>
+      <div class="tools-grid">
+        <div class="tool-card">
+          <img src="images/logopic/cortpro_logo.png" alt="CortPro logo">
+          <h3>CortPro</h3>
+          <p>Depth-wise variations in image intensity reveal architectonic differences across the cortex. CortPro is a standardised, validated procedure for generating microstructure profiles from either post-mortem stained tissue or MRI — wrapped as a single line of code.</p>
+          <a href="https://github.com/caseypaquola/CortPro" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+        <div class="tool-card">
+          <img src="images/slider/bigbrainwarp.png" alt="BigBrainWarp">
+          <h3>BigBrainWarp</h3>
+          <p>BigBrain offers an ultra-high-resolution (20µm) volumetric reconstruction of a sliced and stained post-mortem human brain. BigBrainWarp integrates BigBrain with neuroimaging and other modalities: histological features and pre-transformed maps, code for data transformations, and extensive tutorials.</p>
+          <a href="https://bigbrainwarp.readthedocs.io/en/latest/" target="_blank" rel="noopener">Documentation →</a>
+          <span> · </span>
+          <a href="https://github.com/caseypaquola/BigBrainWarp" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="rule"></div>
+
+  <!-- TEAM -->
+  <section id="team">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Team</h2>
+        <p class="sub">The people of the MuNe.</p>
+      </div>
+      <div class="team-grid">
+        <div class="member">
+          <img src="images/teampic/Casey1.jpg" alt="Casey Paquola">
+          <h3>Casey Paquola</h3>
+          <div class="role">Group Leader</div>
+          <ul>
+            <li>Postdoctoral fellow, Montreal Neurological Institute, McGill University, Canada</li>
+            <li>PhD in Medicine, The University of Sydney, Australia</li>
+          </ul>
+        </div>
+        <div class="member">
+          <img src="images/teampic/Thanos1.jpeg" alt="Thanos Tsigaras">
+          <h3>Thanos Tsigaras</h3>
+          <div class="role">PhD student · started October 2022</div>
+          <ul>
+            <li>Master of Science in Molecular Biomedicine, Heinrich-Heine-Universität Düsseldorf, Germany</li>
+            <li>Bachelor of Science in Biochemistry, Heinrich-Heine-Universität Düsseldorf, Germany</li>
+          </ul>
+        </div>
+        <div class="member">
+          <img src="images/teampic/Zahra1.jpg" alt="Zahra Moradimanesh">
+          <h3>Zahra Moradimanesh</h3>
+          <div class="role">Postdoctoral researcher · started May 2025</div>
+          <ul>
+            <li>PhD in Cognitive Modeling, Shahid Beheshti University, Iran</li>
+            <li>Master of Engineering in Artificial Intelligence, Amirkabir University of Technology, Iran</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="rule"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>About &amp; contact</h2>
+        <p class="sub">Where we work, and how to reach us.</p>
+      </div>
+      <div class="about-grid">
+        <div>
+          <h3>Institute of Neuroscience and Medicine (INM-7)</h3>
+          <p>Research at <a href="https://www.fz-juelich.de/inm/inm-7/EN/Home/home_node.html" target="_blank" rel="noopener" style="color:var(--teal);">INM-7</a> centres on the relationship between the brain and behaviour. The institute specialises in integrating multi-modal neuroimaging data and using it to develop machine learning models of complex behavioural phenotypes. The Multiscale Neurodevelopment team is closely tied to the <a href="https://www.fz-juelich.de/en/inm/inm-7/research-groups/biomarker-development" target="_blank" rel="noopener" style="color:var(--teal);">Biomarker Development group</a>.</p>
+
+          <h3>Forschungszentrum Jülich</h3>
+          <p>The Forschungszentrum is a leafy campus housing domain-expert scientists from across many fields, a short train ride from Aachen, Cologne and Düsseldorf.</p>
+          <div class="about-photo">
+            <img src="images/slider/fz_juelich.jfif" alt="Forschungszentrum Jülich campus">
+          </div>
+        </div>
+        <div>
+          <div class="contact-card">
+            <div class="name">Dr Casey Paquola</div>
+            <div class="role" style="color:var(--text-faint); font-size:13.5px; margin-top:4px;">Group Leader</div>
+            <a class="email" href="mailto:c.paquola@fz-juelich.de">c.paquola@fz-juelich.de</a>
+          </div>
+          <p style="margin-top:22px;">For more on the wider institute and our other research areas, see the <a href="https://www.fz-juelich.de/en/inm/inm-7/research-groups/multiscale-neurodevelopment" target="_blank" rel="noopener" style="color:var(--teal);">INM-7 group page</a>.</p>
+        </div>
+      </div>
+
+      <div class="funding">
+        <img src="images/logopic/Logo_Emmy.jpg" alt="Emmy Noether Programme logo">
+        <p>We are very grateful for funding from the Deutsche Forschungsgemeinschaft via the Emmy Noether Programme.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Multiscale Neurodevelopment Lab, INM-7, Forschungszentrum Jülich</span>
+    <span>Site by Casey Paquola</span>
+  </div>
+</footer>
+
+<button id="toTop" aria-label="Back to top">↑</button>
+
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+  });
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  }));
+
+  // scroll-spy: highlight the nav link for the section in view
+  const navAnchors = document.querySelectorAll('.navlinks a[data-section]');
+  const sections = [...navAnchors].map(a => document.getElementById(a.dataset.section)).filter(Boolean);
+  const spy = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const link = document.querySelector(`.navlinks a[data-section="${entry.target.id}"]`);
+      if (!link) return;
+      if (entry.isIntersecting) {
+        navAnchors.forEach(a => a.classList.remove('active'));
+        link.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
+  sections.forEach(s => spy.observe(s));
+
+  // back-to-top button
+  const toTop = document.getElementById('toTop');
+  window.addEventListener('scroll', () => {
+    toTop.classList.toggle('visible', window.scrollY > 700);
+  }, { passive: true });
+  toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+</script>
+
+</body>
+</html>
