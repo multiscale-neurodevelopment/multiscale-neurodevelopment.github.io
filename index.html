@@ -126,6 +126,34 @@
     background:radial-gradient(circle at 50% 50%, rgba(10,13,19,0) 45%, var(--bg) 92%);
     pointer-events:none;
   }
+    .hero-jobs{
+    margin-top:32px;
+    padding-top:24px;
+    border-top:1px solid var(--line);
+  }
+  .hero-jobs .jobs-label{
+    font-size:13px;
+    color:var(--amber);
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    margin-bottom:14px;
+  }
+  .hero-jobs a{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    margin-right:20px;
+    margin-bottom:8px;
+    font-size:15px;
+    color:var(--text);
+    border-bottom:1px solid rgba(79,209,192,0.4);
+    padding-bottom:2px;
+    transition:color .15s ease, border-color .15s ease;
+  }
+  .hero-jobs a:hover{
+    color:var(--teal);
+    border-color:var(--teal);
+  }
   @media (max-width:800px){
     .hero-figure{display:none;}
     .hero-grid{grid-template-columns:1fr;}
@@ -310,7 +338,13 @@
         <div class="kicker">The human brain across space and time</div>
         <h1>Multiscale Neurodevelopment Lab</h1>
         <p class="lede">We study how cytoarchitecture, connectivity and functional dynamics mature across early life, working at the interface of microscopy, neuroimaging and computational modelling.</p>
-        <p class="lede">Based at INM-7, Forschungszentrum Jülich, and funded by the Deutsche Forschungsgemeinschaft and the Horizon Europe.</p>
+        <p class="lede">Based at INM-7, Forschungszentrum Jülich, and funded by the Deutsche Forschungsgemeinschaft and ERC.</p>
+        <p class="lede">We're currently open to applications from post-doctoral researchers and potential PhD students. Please apply via the links.</p>
+        <div class="hero-jobs">
+          <div class="jobs-label">We're hiring</div>
+          <a href="..." target="_blank" rel="noopener">Postdoctoral researcher →</a>
+          <a href="..." target="_blank" rel="noopener">PhD student →</a>
+        </div>
       </div>
       <div class="hero-figure" aria-hidden="true">
         <img src="images/general/multimodal_slices.jpg" alt="">
